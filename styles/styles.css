@@ -1,0 +1,57 @@
+/* primary logo color #000000 */
+/* secondary logo color #2196F3 */
+/* background footer #2f303a */
+:root {
+  --brand-primary-color: #2196f3;
+  --brand-secondary-color: #000000;
+  --body-color: #757575;
+  --background-color: #2f303a;
+  --title-color: #212121;
+}
+body {
+  color: var(--body-color);
+}
+.logo {
+  color: var(--brand-secondary-color);
+}
+
+.logo .logo-web {
+  color: var(--brand-primary-color);
+}
+
+.header .contact {
+  color: var(--body-color);
+}
+
+.nav-links .title:hover,
+.nav-links .title:focus,
+.header .contact:hover,
+.header .contact:focus {
+  color: var(--brand-primary-color);
+}
+
+.title,
+.name {
+  color: var(--title-color);
+}
+
+.hero .title {
+  text-align: center;
+}
+.hero .button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.ours-work .title,
+.our-team .title {
+  text-align: center;
+}
+.footer {
+  background-color: var(--background-color);
+}
+.footer-address {
+  color: #ffffff;
+}
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
