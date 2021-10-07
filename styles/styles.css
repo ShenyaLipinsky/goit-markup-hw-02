@@ -10,9 +10,18 @@
 }
 body {
   color: var(--body-color);
+  font-family: 'Roboto', 'sans-serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 .logo {
   color: var(--brand-secondary-color);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 .logo .logo-web {
@@ -29,29 +38,85 @@ body {
 .header .contact:focus {
   color: var(--brand-primary-color);
 }
-
+.navigation .title,
+.header .contact {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
 .title,
 .name {
   color: var(--title-color);
 }
 
 .hero .title {
-  text-align: center;
-}
-.hero .button {
   color: #ffffff;
+  /* удалить после нанесения фона */
+  background-color: gray;
+  /* удалить после нанесения фона */
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button {
+  cursor: pointer;
+}
+.hero .button-text {
+  color: #ffffff;
+  /* удалить после нанесения фона */
   background-color: #2196f3;
+  /* удалить после нанесения фона */
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.benefits {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.benefits .title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 .ours-work .title,
 .our-team .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
   text-align: center;
 }
+.our-team .name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.our-team .profession {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
 .footer {
   background-color: var(--background-color);
 }
+.footer .logo {
+  color: #ffffff;
+}
 .footer-address {
   color: #ffffff;
+  font-style: normal;
+  line-height: 1.71;
 }
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
+  line-height: 1.71;
 }
