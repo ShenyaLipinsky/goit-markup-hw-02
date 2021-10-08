@@ -31,7 +31,6 @@ body {
 .header .contact {
   color: var(--body-color);
 }
-
 .nav-links .title:hover,
 .nav-links .title:focus,
 .header .contact:hover,
