@@ -43,8 +43,12 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.benefits {
+  font-size: 14px;
+}
 .title,
-.name {
+.name,
+.name-of-position {
   color: var(--title-color);
 }
 
@@ -63,11 +67,7 @@ body {
 .button {
   cursor: pointer;
 }
-.hero .button-text {
-  color: #ffffff;
-  /* удалить после нанесения фона */
-  background-color: #2196f3;
-  /* удалить после нанесения фона */
+.hero .button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -75,6 +75,11 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+}
+.hero .button:hover,
+.hero .button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
 }
 .benefits {
   line-height: 1.71;
@@ -103,7 +108,27 @@ body {
   line-height: 1.18;
   text-align: center;
 }
-
+.filter .filter-button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  font-family: 'Roboto', 'sans-serif';
+}
+.name-of-position {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.type-of-position {
+  font-size: 16px;
+  line-height: 1.87;
+}
+.filter .filter-button:hover,
+.filter .filter-button:focus {
+  color: #ffffff;
+  background-color: var(--brand-primary-color);
+}
 .footer {
   background-color: var(--background-color);
 }
