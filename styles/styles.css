@@ -66,6 +66,7 @@ body {
 }
 .button {
   cursor: pointer;
+  background-color: #2196f3;
 }
 .hero .button {
   font-weight: 700;
@@ -79,7 +80,7 @@ body {
 .hero .button:hover,
 .hero .button:focus {
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: #188ce8;
 }
 .benefits {
   line-height: 1.71;
@@ -109,6 +110,7 @@ body {
   text-align: center;
 }
 .filter .filter-button {
+  cursor: pointer;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.62;
