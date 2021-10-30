@@ -34,7 +34,9 @@ body {
 .nav-links .title:hover,
 .nav-links .title:focus,
 .header .contact:hover,
-.header .contact:focus {
+.header .contact:focus,
+.footer-contacts:hover,
+.footer-contacts:focus {
   color: var(--brand-primary-color);
 }
 .navigation .title,
