@@ -65,8 +65,8 @@ body {
   text-transform: uppercase;
 }
 .button {
-  cursor: pointer;
   background-color: #2196f3;
+  cursor: pointer;
 }
 .hero .button {
   font-weight: 700;
